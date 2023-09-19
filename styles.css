@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #242582;
+  padding: 20px;
+}
+
+nav p {
+  color: white;
+  font-size: 25px;
+  font-weight: 750;
+}
+
+.logo {
+  color: #f63962;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 15px 0 15px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+
+a:hover {
+  color: #f64c72;
+  transition: 0.4s;
+  border-bottom: 2px solid;
+}
+
+#login {
+  padding: 29px 30px 29px 30px;
+  color: white;
+  border: 3px solid #f64c72;
+}
+
+#login:hover {
+  transition: 0.4s;
+  color: white;
+  background-color: #f63962;
+}
+
+/* Bagian sub heading */
+
+.sub-heading {
+  display: flex;
+  align-items: center;
+  background-color: #242582;
+  justify-content: center;
+  height: 90vh;
+}
+
+.img-sub-heading {
+  padding-right: 50px;
+  margin-bottom: 100px;
+}
+
+.text-sub-heading {
+  margin-bottom: 140px;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+}
+
+.text-sub-heading .logo {
+  color: #f63962;
+}
+
+.text-sub-heading input {
+  height: 45px;
+  width: 350px;
+  font-size: 16px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.btn-sub-heading {
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: #f63962;
+}
+
+.btn-sub-heading:hover {
+  border: 2px solid #f63962;
+  transition: 0.5s;
+  background-color: #242582;
+}
+
+.populer {
+  margin: 50px 0 50px 0;
+}
+
+.sub-topik-populer {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.topik-populer {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topik-populer img {
+  height: 250px;
+  width: 250px;
+}
+
+/* rekomenasi kursus */
+.rekomendasi {
+  padding: 50px 0 100px 0;
+  background-color: #242582;
+  text-align: center;
+}
+
+.judul-rekomendasi {
+  padding: 30px 0 30px 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.rekomendasi-kursus {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rekomendasi-kursus img {
+  height: 190px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.card-kursus {
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.card-kursus button {
+  background-color: #f64c72;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.card-kursus button:hover {
+  border-bottom: 1px solid black;
+  background-color: white;
+  color: #f63962;
+  transition: 0.3s;
+}
+
+/* about us */
+.center-about {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.center-about span {
+  color: #f63962;
+}
+.about-us {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0 50px 0;
+}
+
+.about-us #about-us {
+  text-align: center;
+}
+
+.card-about {
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(169, 169, 169);
+  border-radius: 5px;
+}
+
+.card-about img {
+  height: 230px;
+  width: 150px;
+}
+
+.komen {
+  padding-left: 10px;
+}
+/* Jadi instruktur */
+
+.card-mentor {
+  background-color: #f63962;
+  padding: 40px 0 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.judul-mentor {
+  width: 40%;
+}
+
+.judul-mentor .judul {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.judul span {
+  color: #242582;
+}
+
+.judul-mentor button {
+  padding: 15px 25px 15px 25px;
+  background-color: #242582;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.judul-mentor button:hover {
+  transition: 0.4s;
+  background-color: #3638b2;
+}
+
+.container4 {
+  padding-top: 50px;
+  text-align: center;
+  max-width: 250px;
+  margin: auto;
+}
+
+.container4 button {
+  margin: 10px 0 100px 0;
+  width: 100px;
+  height: 25px;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  padding: 40px;
+  margin: 0 auto;
+}
